@@ -16,7 +16,7 @@ export default {
     <div class="w-full mb-10 mt-[73px]">
         <div class="md:max-w-[1024px] mx-auto">
             <div
-                class="w-full h-[500px] rounded-bl-[100px] flex items-center bg-cover bg-right bg-[url('./src/assets/tablet.jpg')]">
+                class="w-full h-[500px] rounded-bl-[100px] flex items-center bg-cover bg-right bg-[url('tablet.jpg')]">
                 <div class="w-[80%] mx-auto mt-[-30px]">
                     <!-- <div> -->
                         <h1 class="text-4xl text-[#10a6a5] mb-3">ERPEEL.NET</h1>
