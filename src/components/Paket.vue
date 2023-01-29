@@ -1,8 +1,8 @@
 <template>
     <div class="w-full py-10" id="harga">
-        <div class="md:max-w-[1024px] mx-auto">
+        <div class="lg:max-w-[1024px] md:max-w-[768px] px-4 md:px-0 mx-auto">
             <h1 class="text-4xl mb-10">Pilihan Paket Voucher</h1>
-            <div class="grid-cols-3 grid gap-4">
+            <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid gap-4">
                 <div class="card p-5 rounded-xl text-white" v-for="data in packaged">
                     <div class="flex items-center mb-2">
                         <img class="w-[25px] rounded-full mr-3" src="../assets/logovoucher.jpg" />

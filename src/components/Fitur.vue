@@ -14,9 +14,9 @@ export default {
 
 <template>
     <div class="w-full bg-zinc-100 py-10 pb-16" id="fitur">
-        <div class="md:max-w-[1024px] mx-auto">
+        <div class="lg:max-w-[1024px] md:max-w-[768px] px-4 md:px-0 mx-auto">
             <h1 class="text-4xl mb-10 text-center">Fitur</h1>
-            <div class="grid grid-cols-3 gap-10">
+            <div class="grid grid-cols-2 justify-center sm:grid-cols-3 gap-10">
                 <div class="text-center">
                     <div class="logoftr">
                         <svg viewBox="0 0 64 64">

@@ -1,6 +1,6 @@
 <template>
     <header class="bg-white fixed left-0 top-0 w-full">
-        <div class="flex justify-between content-center py-3 md:max-w-[1024px] mx-auto">
+        <div class="flex justify-between content-center py-3 lg:max-w-[1024px] md:max-w-[768px] px-4 md:px-0 mx-auto">
             <div class="logo flex justify-center content-center">
                 <a href="/">
                     <img class="w-[50px] h-[50px]" :src="getImageUrl('wfi.png')" />
@@ -8,7 +8,7 @@
                 <!-- <input class="menu-btn" type="checkbox" id="menu-btn" /> -->
                 <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             </div>
-            <ul class="flex gap-10 items-center justify-between">
+            <ul class="gap-10 items-center justify-between hidden md:flex">
                 <li><a class="menu-link" href="">Home</a></li>
                 <li><a class="menu-link" href="#fitur">Fitur</a></li>
                 <li><a class="menu-link" href="#harga">Harga</a></li>
