@@ -60,6 +60,6 @@ p {
 }
 
 .card {
-    background: url("pbg.png"), linear-gradient(165deg, #00c5b3 0%, rgba(85, 101, 105) 100%);
+    background: url("/pbg.png"), linear-gradient(165deg, #00c5b3 0%, rgba(85, 101, 105) 100%);
 }
 </style>
