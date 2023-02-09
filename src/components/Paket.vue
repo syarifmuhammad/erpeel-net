@@ -12,7 +12,7 @@
                     <p class="text-sm font-thin mb-4">
                         {{ data.description }}
                     </p>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6281232843422&text=Saya%20ingin%20Beli%20Voucher%20internet%20" class="cursor-pointer px-6 py-2 bg-white text-[#10a6a5] rounded-3xl text-sm">Beli paket</a>
+                    <a target="_blank" :href="`https://api.whatsapp.com/send?phone=6281232843422&text=Saya%20ingin%20Beli%20Voucher%20internet%20${ data.name }`" class="cursor-pointer px-6 py-2 bg-white text-[#10a6a5] rounded-3xl text-sm">Beli paket</a>
                 </div>
             </div>
         </div>
